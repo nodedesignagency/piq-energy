@@ -9,7 +9,8 @@
     "framer:check": "node scripts/framer-check.mjs",
     "test": "node --test test/*.test.mjs",
     "typecheck": "tsc -p .",
-    "framer:push-code": "node scripts/framer-push-code.mjs"
+    "framer:push-code": "node scripts/framer-push-code.mjs",
+    "framer:agent-docs": "node scripts/framer-agent-docs.mjs"
   },
   "dependencies": {
     "framer-api": "^5.1.0"
