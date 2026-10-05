@@ -1,0 +1,14 @@
+{
+  "name": "piq-energy",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "framer:check": "node scripts/framer-check.mjs"
+  },
+  "dependencies": {
+    "framer-api": "^5.1.0"
+  }
+}
